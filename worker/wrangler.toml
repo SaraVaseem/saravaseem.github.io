@@ -1,0 +1,6 @@
+name = "wind-truth-api"
+main = "src/index.js"
+compatibility_date = "2024-11-01"
+kv_namespaces = [{ binding = "HIST", id = "125c4e7a9c0144e388c25f44012c5d3c" }]
+[triggers]
+crons = ["7 * * * *"]   # hourly ingest
